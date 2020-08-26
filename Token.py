@@ -35,5 +35,5 @@ class Token(object):
         self.text = text
         
     def __str__(self):
-    	"""Converts a token to string."""
+        """Converts a token to string."""
         return "<'%s', %s>" % (self.text, TokenTypes.names[self.type])
